@@ -1,0 +1,58 @@
+.n_options{
+    position: relative;
+    margin: 20% auto 0% auto;
+    text-align: center;
+    display: block;
+}
+.clicked{
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.head {
+    background-color: rgb(42, 41, 41);
+    margin: 0;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+.head > .find {
+    border-radius: 20px;
+    margin-top: 1vh;
+    background-color: grey;
+    border: none;
+    height: 20px;
+    padding-left: 3px;
+}
+*{
+    font-family: sans-serif;
+}
+label{
+    margin-left: 20px;  
+}
+.head > label {
+    color: rgb(200, 208, 243);
+}
+table{
+    margin: 20px;
+}
+.n_class > .classes {
+    text-align: center;
+}
+button{
+    border-style: none;
+    border: none;
+    box-shadow: none;
+    border: 1px solid grey;
+    border-bottom: 2px solid rgb(32, 30, 30);
+    height: 50px;
+}
+table, tr, th, td, tbody, thead {
+    border: 2px solid black;
+    border-collapse: collapse;
+}

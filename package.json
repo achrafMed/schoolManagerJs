@@ -1,0 +1,31 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "electron-packager ./ --platform=all --arch=all --electron-version=6.0.7",
+    "version": "electron -"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
+    "@types/electron": "^1.6.10",
+    "@types/nedb": "^1.8.9",
+    "@types/node": "^12.12.17",
+    "electron-packager": "^14.1.1",
+    "mongodb": "^3.3.3",
+    "mysql": "^2.17.1",
+    "nedb": "^1.8.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4"
+  }
+}

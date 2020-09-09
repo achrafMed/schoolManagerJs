@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>school</title>
+</head>
+<body>
+    <!--  this is the menu for saving.... -->
+    <header class="head">
+    <label for="find" id="name">nom de l'élève: </label>
+    <input type="text" name="find" class="find">
+    </header>
+    <div class="n_options">
+        <button class="new">ajouter un élève</button>
+        <button class="f">trouver un élève</button>
+        <button class="remove" disabled="true">suprimer un élève</button>
+        <button class="add">nouvelle class...</button>
+        <button class="show">afficher les classes...</button>
+    </div>
+    <table class="ajouter">
+        <thead>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>Date de naissance</th>
+            <th>Address</th>
+            <th>Nom de Tuteur</th>
+            <th>Numero de telephone</th>
+            <th>Scholarité intérieur</th>
+            <th></th>
+            <th></th>
+        </thead>
+        <tbody class="tbody">
+
+        </tbody>
+    </table>
+
+    <table class="trouver" name="find">
+        <thead>
+            <th></th>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>Date de naissance</th>
+            <th>Address</th>
+            <th>Nom de Tuteur</th>
+            <th>Numero de telephone</th>
+            <th>Scholarité intérieur</th>
+        </thead>
+        <tbody class="tr">
+
+        </tbody>
+    </table>
+    <section class="n_class" style="display: flex; margin-top: 10px;">
+        <div class="classes" hidden="true">
+            <label for="nom">nom de la class: </label>
+            <input type="text" name="nom" class="nom">
+            <label for="niveau">niveau</label>
+            <input type="text" name="niveau" class="niveau" list="niveau">
+            <datalist id="niveau">
+                <option value="cp">cp</option>
+                <option value="2eme année primaire">2ème anné primaire</option>
+                <option value="3eme année primaire">3éme année primaire</option>
+                <option value="4eme année primaire">4éme année primaire</option>
+                <option value="5eme année primaire">5éme année primaire</option>
+                <option value="6eme année primaire">6éme année primaire</option>
+                <option value="1ere année college">1ére année college</option>
+                <option value="2eme année college">2éme année college</option>
+                <option value="3eme année college">3éme année college</option>
+                <option value="tronc commun">tronc commun</option>
+                <option value="1ere année bac science math">1ere annee bac science math</option>
+                <option value="1ere année bac science ex">1ere annee bac science ex</option>
+                <option value="1ere année bac economie">1ere annee bac économie</option>
+                <option value="2eme année bac science math a">2eme année bac science math a</option>
+                <option value="2eme année bac science math b">2eme année bac science math b</option>
+                <option value="2eme année bac science physique">2eme année bac science physique</option>
+            </datalist>
+            <button class="names">ajouter des éleves</button>
+            <button class="valider" hidden="true">valider</button>
+        </div>
+    </section>
+    <table class="f_class" hidden="true">
+        <thead>
+            <th>nom de la class</th>
+            <th>niveau de la class</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </thead>
+        <tbody class="f-class">
+
+        </tbody>
+    </table>
+    <button id="try">press me</button>
+</body>
+<script>var exports = {"__esModule": true};</script>
+<script>window.$ = window.jquery = require("./jquery-3.4.1.min.js");</script>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
